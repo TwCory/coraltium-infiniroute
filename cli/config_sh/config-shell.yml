@@ -1,0 +1,312 @@
+command-node:
+
+  - aaa:
+      info: "Configure system parameters for authentication, authorization, and accounting (AAA) security services"
+    
+  - access-list:
+      info: "Configure address family-independent access control lists (ACLs)"
+      
+  - affinity-map:
+      info: "Configure a bit position-to-string mapping"
+
+  - alias:
+      info: "Configure command-line shell aliases"
+
+  - appletalk:
+      info: "Configure system parameters for the AppleTalk network protocol stack"
+
+  - arp:
+      info: "Configure system parameters for the protocol-independent form of the Address Resolution Protocol (ARP)"
+
+  - atm:
+      info: "Configure system parameters for the Asynchronous Transfer Mode (ATM) link-layer network services"
+
+  - banner:
+      info: "Configure banners, message-of-the-day messages, and issues to present to users upon login"
+
+  - bluetooth:
+      info: "Configure system parameters for the Bluetooth low-range wireless technology"
+
+  - class-map:
+      info: "Configure parameters for associating specified packet types with a defined class for network Quality of Service (QoS)"
+
+  - clns:
+      info: "Configure system parameters for the ISO/IEC Connectionless-mode Network Service (CLNS) internetwork-layer service"
+
+  - crypto:
+      info: "Configure system parameters for miscellaneous cryptography services"
+
+  - dns:
+      info: "Configure system parameters for the Domain Name System (DNS) network service"
+
+  - do:
+      info: "Enable execution of user-mode and privileged-mode commands from configuration mode"
+
+  - docsis:
+      info: "Configure system parameters for the Data Over Cable Service Interface Specification (DOCSIS) link-layer network service"
+
+  - dot1x:
+      info: "Configure system parameters for the IEEE 802.1x Port-Based Network Access Control network security services"
+
+  - dsa:
+      info: "Configure system parameters for the Linux Distributed Switch Architecture (DSA) Ethernet services"
+
+  - dsl:
+      info: "Configure system parameters for the Digital Subscriber Line (DSL) link-layer network service"
+
+  - eap:
+      info: "Configure system parameters for the Extensible Authentication Protocol (EAP) security framework"
+
+  - enable:
+      info:
+
+  - end:
+      info:
+
+  - ethernet:
+      info: "Configure system parameters for the IEEE Ethernet technology services"
+
+  - exit:
+      info:
+
+  - feature:
+      info: "Enable an optional system feature/service"
+
+  - fiberchannel:
+      info: "Configure system parameters for the FiberChannel network services"
+
+  - frame-relay:
+      info: "Configure system parameters for the Frame Relay link-layer network services"
+
+  - hdlc:
+      info: "Configure system parameters for the Point-to-Point Protocol (PPP) link-layer network service"
+
+  - hostname:
+      info: "Configure the system's network name or hostname"
+
+  - ieee-spb:
+      info: "Configure system parameters for the IEEE 802.1aq Shortest-Path Bridging (SPB) link-layer network service"
+
+  - infiniband:
+      info: "Configure system parameters for the InfiniBand network services"
+
+  - interface:
+      info: "Configure settings for an existing network interface on the system"
+
+  - ipv4:
+      info: "Configure system parameters for Internet Protocol Version 4 (IPv4) and its associated services"
+
+      child-cmd:
+        - address-translation:
+            info: "Configure system parameters for an IPv4 address translation method"
+
+        - arp:
+            info: "Configure system parameters for the Address Resolution Protocol (ARP) in the context of IPv4"
+
+        - dhcp:
+            info: "Configure parameters, server, client, and/or relay agent services for DHCP for IPv4"
+
+        - forwarding:
+            info: "Configure system parameters for IPv4 datagram forwarding"
+
+        - icmp:
+            info: "Configure system parameters for the Internet Control Message Protocol (ICMP) for IPv4"
+
+        - igmp:
+            info: "Configure system parameters for IPv4 Internet Group Management Protocol (IGMP)"
+
+        - pim:
+            info: "Configure system parameters for Protocol-Independent Multicast for IPv4 (PIM)"
+
+        - prefix-list:
+            info: "Configure an IPv4 list of network prefixes/subnets to match"
+
+        - route:
+            info: "Configure the system's IPv4 routing information base (RIB)"
+
+  - ipv6:
+      info: "Configure system parameters for Internet Protocol Version 6 (IPv6) and its associated services"
+
+      child-cmd:
+        - address-translation:
+            info: "Configure parameters for an IPv6 address translation method"
+
+        - dhcp:
+            info: "Configure parameters, server, client, relay agent, and/or prefix delegation services for DHCPv6"
+
+            child-cmd:
+              - client:
+                  info: "Configure system parameters for the DHCPv6 client services"
+
+              - relay-agent:
+                  info: "Configure system parameters for the DHCPv6 relay agent services"
+
+              - server:
+                  info: "Create and configure DHCPv6 server instances, address pools, prefix delegation, etc."
+
+        - extension-header:
+            info: "Configure system parameters for IPv6 extension header support and options"
+
+        - forwarding:
+            info: "Configure system parameters for IPv6 datagram forwarding"
+
+            child-cmd:
+              - anycast:
+                  info: "Enable IPv6 anycast datagram forwarding"
+
+              - multicast:
+                  info: "Enable IPv6 multicast datagram forwarding"
+
+              - unicast:
+                  info: "Enable IPv6 unicast datagram forwarding"
+
+        - icmp:
+            info: "Configure system parameters for the Internet Control Message Protocol for IPv6 (ICMPv6)"
+
+        - mld:
+            info: "Configure system parameters for IPv6 Multicast Listener Discovery (MLD)"
+
+        - ndp:
+            info: "Configure system parameters for IPv6 Neighbor Discovery Protocol (NDP/ND)"
+
+        - pim:
+            info: "Configure system parameters for Protocol-Independent Multicast for IPv6 (PIMv6)"
+
+        - prefix-list:
+            info: "Configure an IPv6 list of network prefixes to match"
+
+        - route:
+            info: "Configure the system's IPv6 routing information base (RIB)"
+
+  - key-chain:
+      info:
+
+  - l2tp:
+      info:
+
+  - line:
+      info:
+
+  - link-aggregation-group:
+      info:
+
+  - lldp:
+      info:
+
+  - mac-address-table:
+      info:
+
+  - macsec:
+      info:
+
+  - mdns:
+      info:
+
+  - mpls:
+      info:
+
+  - multicast-vpn:
+      info:
+
+  - netflow:
+      info:
+
+  - nfc:
+      info:
+
+  - ntp:
+      info:
+
+  - omnipath:
+      info:
+
+  - openvswitch:
+      info:
+
+  - policy:
+      info:
+
+  - policy-map:
+      info:
+
+  - ppp:
+      info:
+
+  - ptp:
+      info:
+
+  - qos:
+      info:
+
+  - quic:
+      info:
+
+  - rlogin:
+      info:
+
+  - router:
+      info: "Create and configure a dynamic routing protocol instance"
+
+      child-cmd:
+        - babel:
+            info: "Create and configure instances of the TCP/IP Babel IGP routing protocol"
+
+        - batman:
+            info: "Create and configure instances of the Better Approach to Mobile Ad-Hoc Networking (BATMAN) ad-hoc routing protocol"
+
+        - bgp:
+            info: "Create and configure instances of the TCP/IP Border Gateway Protocol (BGP) EGP routing protocol"
+
+        - is-is:
+            info: "Create and configure instances of the ISO/IEC Intermediate System to Intermediate System (IS-IS) IGP routing protocol"
+
+        - openfabric:
+            info: "Create and configure instances of the ISO/IEC IS-IS-derived OpenFabric IGP routing protocol"
+
+        - ospf:
+            info: "Create and configure instances of the TCP/IP Open Shortest Path First (OSPF) IGP routing protocol"
+
+        - rip:
+            info: "Create and configure instances of the TCP/IP Routing Information Protocol (RIP) IGP routing protocol"
+
+  - segment-routing:
+      info: "Configure system parameters for the TCP/IP Segment Routing (SR) source-routing network service"
+
+  - slip:
+      info: "Configure system parameters for the Serial Line Interface Protocol (SLIP) link-layer network service"
+
+  - snmp:
+      info: "Configure system parameters for remote monitoring and management via an external Simple Network Management Protocol (SNMP) server"
+
+  - spanning-tree:
+      info: "Configure system parameters for the Spanning Tree Protocol link-layer loop-prevention service for bridged Ethernet networks"
+
+  - ssh:
+      info: "Configure system parameters for remote access via the Secure Shell (SSH) protocol"
+
+  - system:
+      info: "Configure miscellaneous system parameters"
+
+  - tcp:
+      info: "Configure system parameters for the TCP/IP Transmission Control Protocol (TCP)"
+
+  - telnet:
+      info: "Configure system parameters for remote access via the Telnet protocol"
+
+  - trill:
+      info: "Configure system parameters for the TCP/IP Transparent Interconnection of Lots of Links (TRILL) loop-prevention service"
+
+  - udp:
+      info: "Configure system parameters for the TCP/IP User Datagram Protocol (UDP)"
+
+  - username:
+      info: "Configure local user accounts on the system for authentication purposes"
+
+  - vlan:
+      info: "Configure virtual local area network (VLAN) instances"
+
+  - vrf:
+      info: "Configure virtual routing and forwarding (VRF) instances"
+
+  - x25:
+      info: "Configure system parameters for the ITU-T X.25 link-layer network services"
