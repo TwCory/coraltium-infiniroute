@@ -58,16 +58,16 @@ command-node:
       info: "Configure system parameters for the Extensible Authentication Protocol (EAP) security framework"
 
   - enable:
-      info:
+      info: "Configure privileged mode (enable mode) passwords and/or secrets for access control"
 
   - end:
-      info:
+      info: "Exit from current configuration mode to privileged (enable) mode"
 
   - ethernet:
       info: "Configure system parameters for the IEEE Ethernet technology services"
 
   - exit:
-      info:
+      info: "Exit down a single level from the current command-line shell mode"
 
   - feature:
       info: "Enable an optional system feature/service"
@@ -79,7 +79,7 @@ command-node:
       info: "Configure system parameters for the Frame Relay link-layer network services"
 
   - hdlc:
-      info: "Configure system parameters for the Point-to-Point Protocol (PPP) link-layer network service"
+      info: "Configure system parameters for the High-Level Data Link Control (HDLC) link-layer network service"
 
   - hostname:
       info: "Configure the system's network name or hostname"
@@ -179,70 +179,67 @@ command-node:
             info: "Configure the system's IPv6 routing information base (RIB)"
 
   - key-chain:
-      info:
+      info: "Configure sequences of keys/shared secrets"
 
   - l2tp:
-      info:
+      info: "Configure system parameters for the Layer 2 Tunneling Protocol (L2TP)"
 
   - line:
-      info:
+      info: "Configure parameters for system command-line interface access"
 
   - link-aggregation-group:
-      info:
+      info: "Configure system parameters for interface bonds/link aggregation groups (LAGs)"
 
   - lldp:
-      info:
+      info: "Configure system parameters for the Link-Layer Discovery Protocol (LLDP) link-layer service"
 
   - mac-address-table:
-      info:
+      info: "Configure system parameters for the MAC address table for Ethernet bridging/switching services"
 
   - macsec:
-      info:
+      info: "Configure system parameters for the IEEE 802.1AE MACsec link-layer security services"
 
   - mdns:
-      info:
+      info: "Configure system parameters for the Multicast DNS network service"
 
   - mpls:
-      info:
+      info: "Configure system parameters for the Multiprotocol Label Switching (MPLS) network service"
 
   - multicast-vpn:
-      info:
+      info: "Configure system parameters for multicast virtual private network (mVPN) services"
 
   - netflow:
-      info:
+      info: "Configure system parameters for the NetFlow network services"
 
   - nfc:
-      info:
+      info: "Configure system parameters for the Nearfield Communication (NFC) low-range wireless technology"
 
   - ntp:
-      info:
+      info: "Configure system parameters for the Network Time Protocol (NTP) clock synchronization service"
 
   - omnipath:
-      info:
+      info: "Configure system parameters for the Omni-Path Architecture network services"
 
   - openvswitch:
-      info:
+      info: "Configure system parameters for the Open vSwitch Linux kernel module feature"
 
   - policy:
-      info:
+      info: "Configure system policy parameters"
 
   - policy-map:
-      info:
+      info: "Configure associations between traffic class maps and policies to apply to matched traffic"
 
   - ppp:
-      info:
+      info: "Configure system parameters for the Point-to-Point Protocol (PPP) link-layer network service"
 
   - ptp:
-      info:
-
-  - qos:
-      info:
+      info: "Configure system parameters for the Precision Time Protocol (PTP) clock synchronization service"
 
   - quic:
-      info:
+      info: "Configure system parameters for the QUIC transport-layer protocol"
 
   - rlogin:
-      info:
+      info: "Configure system parameters for the Berkeley Remote Login (rlogin) remote access service"
 
   - router:
       info: "Create and configure a dynamic routing protocol instance"
