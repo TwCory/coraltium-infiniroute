@@ -121,3 +121,5 @@
 #define D4OPT_VIVSO_SUB_OPTIONS                         125
 
 #define D4OPT_END                                       255
+
+#endif
