@@ -9,10 +9,10 @@
 
 // Vendor Extensions - Per RFC 1497 (BOOTP Vendor Information Extensions)
 
-#define D4OPT_PAD										0
-#define D4OPT_SUBNET_MASK								1
-#define D4OPT_TIME_OFFSET								2
-#define D4OPT_ROUTER								    3
+#define D4OPT_PAD										                    0
+#define D4OPT_SUBNET_MASK								                1
+#define D4OPT_TIME_OFFSET							                	2
+#define D4OPT_ROUTER								                    3
 #define D4OPT_TIME_SERVER                               4
 #define D4OPT_NAME_SERVER                               5
 #define D4OPT_DOMAIN_NAME_SERVER                        6
