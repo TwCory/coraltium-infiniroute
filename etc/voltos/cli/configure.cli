@@ -1,0 +1,23 @@
+CLICON_MODE="configure";
+CLICON_PROMPT="%H(config)# ";
+
+/* IOS-style: hostname WORD (YANG-backed, commit applies) */
+hostname("Set the system's network name")
+  <WORD:string("Hostname string")>,
+    cli_auto_set("/vsys:system/hostname","<WORD>");
+
+/* negation */
+no hostname("Remove configured host name"),
+  cli_auto_delete("/vsys:system/hostname");
+
+/* basic workflow */
+commit,   cli_commit();
+validate, cli_validate();
+discard,  cli_discard();
+
+/* show the config (candidate) in set-style */
+show running-config, cli_show_config("candidate","cli","/");
+
+/* quit */
+exit, cli_quit();
+quit, cli_quit();

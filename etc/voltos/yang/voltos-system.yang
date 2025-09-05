@@ -1,0 +1,17 @@
+module voltos-system {
+  yang-version 1.1;
+  namespace "urn:voltos:system";
+  prefix vsys;
+
+  organization "VoltOS";
+  description "Minimal system model";
+
+  container system {
+    description "System-wide parameters";
+    leaf hostname {
+      type string { length "1..253"; }
+      default "voltos";
+      description "System hostname";
+    }
+  }
+}
